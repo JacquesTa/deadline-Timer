@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deadline Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-----------------------------Header-------------------------------------------->
+    <h1>DeadLine-Timer</h1>
+    <!-----------------------------form-------------------------------------------->
+    <div class="form-control" id="form-c">
+      <input
+        class="text"
+        type="text"
+        id="deadline"
+        placeholder="e.g. 15 Mars 2021"
+      />
+      <button type="submit" class="submit-btn" id="subBtn">submit</button>
+    </div>
+    <!-----------------------------Timer-------------------------------------------->
+    <div class="timer-container">
+      <div class="timer-el days-timer">
+        <p class="big-text" id="days">0</p>
+        <span> days </span>
+      </div>
+      <div class="timer-el hours-timer">
+        <p class="big-text" id="hours">0</p>
+        <span> hours </span>
+      </div>
+      <div class="timer-el minutes-timer">
+        <p class="big-text" id="minutes">0</p>
+        <span> minutes </span>
+      </div>
+      <div class="timer-el seconds-timer">
+        <p class="big-text" id="seconds">0</p>
+        <span> seconds </span>
+      </div>
+    </div>
+    <!-----------------------------footer-------------------------------------------->
+  </body>
+</html>
